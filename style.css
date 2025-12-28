@@ -30,16 +30,27 @@ body {
 	padding: 10px;
 	border: 1px solid black;
 	border-radius: 3px;
+	height: 50px;
 }
 
 .buttons {
 	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
 	gap: 10px;
-	width: 200px;
+	flex-wrap: wrap;
+	width: 230px;
 }
 
+
 button {
-	padding: 10px 15px;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	font-weight: 900;
+}
+
+.clear-button {
+	width: 110px;
 }
